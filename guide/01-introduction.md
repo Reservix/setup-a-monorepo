@@ -8,14 +8,14 @@ This guide asumes you are familiar with the term "monorepo". I guess you would n
 
 If you want to know more about the benefits of using a monorepo or why you should not use a monorepo, here is a very short summary:
 
-- 🍪 Simplified organization (single configuration for linting, building, ...)
-- 🍪 Simplified dependency management 
-- 🍪 "Atomic changes" (single PR to coordinate changes affecting multiple modules)
-- 🍪 Enforced architectural boundaries (modules instead of just folders)
-- 🍪 Better discoverability of related modules
+🍪 Simplified organization (single configuration for linting, building, ...)<br/>
+🍪 Simplified dependency management<br/>
+🍪 "Atomic changes" (single PR to coordinate changes affecting multiple modules)<br/>
+🍪 Enforced architectural boundaries (modules instead of just folders)<br/>
+🍪 Better discoverability of related modules<br/>
 
-- 🍋 May become too large
-- 🍋 Performance issues (number of commits)
+🍋 May become too large<br/>
+🍋 Performance issues (number of commits)<br/>
 
 In order to make lemonade out the aforementioned downsides, just remember that you're not Google, Twitter or any other super large organization. You don't need to have *one* monorepo for your whole company. Rather use monorepos to group things that belong together. A good example for this is [Babel](https://babeljs.io/) or [Atlassian's Atlaskit](https://atlaskit.atlassian.com/). 
 
