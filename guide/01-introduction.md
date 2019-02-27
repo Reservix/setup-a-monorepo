@@ -12,7 +12,8 @@ If you want to know more about the benefits of using a monorepo or why you shoul
 🍪 Simplified dependency management<br/>
 🍪 "Atomic changes" (single PR to coordinate changes affecting multiple modules)<br/>
 🍪 Enforced architectural boundaries (modules instead of just folders)<br/>
-🍪 Better discoverability of related modules<br/>
+🍪 Better discoverability of related modules (group by feature, not layer)<br/>
+🍪 Faster feedback loop (test and types span the whole product)<br/>
 🍪 Easy opt-out via `git subtree split`<br/>
 
 🍋 May become too large<br/>
@@ -35,3 +36,9 @@ If you want to have morge informations, here are some links:
 - [Monorepos in the Wild](https://medium.com/@maoberlehner/monorepos-in-the-wild-33c6eb246cb9)
 - [One vs. many — Why we moved from multiple git repos to a monorepo and how we set it up](https://hackernoon.com/one-vs-many-why-we-moved-from-multiple-git-repos-to-a-monorepo-and-how-we-set-it-up-f4abb0cfe469)
 - [Monorepos: Please don’t!](https://medium.com/@mattklein123/monorepos-please-dont-e9a279be011b)
+
+## Monorepos in the world of Node.js/JavaScript
+
+When talking about Node.js and JavaScript a monorepo is a repository that contains mulitple node modules, which potentially can be published to the npm regitry. If one module inside the monorepo requires another module, you can do this like you would require a module from a global registry: `require('my-module')`.
+
+---
