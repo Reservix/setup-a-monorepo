@@ -1,0 +1,11 @@
+{
+  "name": "monorepo-guide",
+  "version": "1.0.0",
+  "repository": "git@github.com:Reservix/setup-a-monorepo.git",
+  "author": "Reservix GmbH <karriere@reservix.net> (https://labs.reservix.de)",
+  "contributors": [
+    "Sebastian Sebald <sebastian.sebald@reservix.de>"
+  ],
+  "license": "MIT",
+  "private": true
+}
