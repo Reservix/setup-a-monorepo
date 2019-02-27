@@ -35,6 +35,7 @@ If you want to have morge informations, here are some links:
 - [Dependency Hell, Monorepos and beyond](https://www.youtube.com/watch?v=VNqmHJtItCs)
 - [Monorepos in the Wild](https://medium.com/@maoberlehner/monorepos-in-the-wild-33c6eb246cb9)
 - [One vs. many — Why we moved from multiple git repos to a monorepo and how we set it up](https://hackernoon.com/one-vs-many-why-we-moved-from-multiple-git-repos-to-a-monorepo-and-how-we-set-it-up-f4abb0cfe469)
+- [Building High-Quality JavaScript Tools](https://www.youtube.com/watch?v=PvabBs_utr8&feature=youtu.be&t=16m24s)
 - [Monorepos: Please don’t!](https://medium.com/@mattklein123/monorepos-please-dont-e9a279be011b)
 
 ## Monorepos in with Node.js/JavaScript
