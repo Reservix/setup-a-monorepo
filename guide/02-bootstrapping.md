@@ -134,6 +134,6 @@ With this script in place, you can alias all _lerna_ commands with `yarn lerna <
 ---
 
 <div>
-  <a style="float:left;" href="./01-introduction.md">⏮ Introduction</a>
-  <a style="float:right;">⏭ ???</a>
+  <a style="display:block; float:left;" href="./01-introduction.md">⏮ Introduction</a>
+  <a style="float:right;" href="#">⏭ ???</a>
 </div>
