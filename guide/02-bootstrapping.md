@@ -77,7 +77,7 @@ Your workspaces setup may look something like this:
 
 **But why would you use and need workspaces?** Until this point there is no distinction between the setup described here and just adding these folder and declare them as "this is where our modules will live". In fact, a lot of people do this and may end up with a not so beautiful monolith. Using _yarn_ and workspaces has no benefit yet.
 
-As already mentioned, every module has to have a `package.json` in its root folder. This contraint helps _yarn_ to auotmatically symlink all _node modules_ in your monorepo. The modules themselves will not contain a `node_modules` folder anymore.[¹](#footnote_1) Instead all dependencies are hoisted in the root `node_modules` folder, which will lead to a much smaller `_node_modules` folder since there are less duplicates.
+As already mentioned, every module has to have a `package.json` in its root folder. This contraint helps _yarn_ to auotmatically symlink all _node modules_ in your monorepo. The modules themselves will not contain a `node_modules` folder anymore.[⁽¹⁾](#footnote_1) Instead all dependencies are hoisted in the root `node_modules` folder, which will lead to a much smaller `_node_modules` folder since there are less duplicates.
 
 Also, you can run `yarn install` in the root of your repository and all dependencies (indluding the ones of your modules) will be installed for you. No need to switch between folders and run the install command in each and everyone of them.
 
