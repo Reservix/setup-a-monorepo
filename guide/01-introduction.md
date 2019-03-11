@@ -41,9 +41,3 @@ If you want to have morge informations, here are some links:
 ## Monorepos in with Node.js/JavaScript
 
 When talking about Node.js and JavaScript a monorepo is a repository that contains mulitple node modules, which potentially can be published to the npm regitry. If one module inside the monorepo requires another module, you can do this like you would require a module from a global registry: `require('my-module')`.
-
----
-
-<div>
-  <a style="float:right;" href="./02-bootstrapping.md">⏭ Bootstrapping</a>
-</div>
