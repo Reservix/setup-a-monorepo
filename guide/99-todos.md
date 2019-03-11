@@ -9,3 +9,29 @@ When adding dependencies to your modules _yarn_ will always try to find the depd
 Recommended alternative: `yarn add <package>@*` (because you always WANT the latest version of your local dependency).
 
 - Note about: https://github.com/yarnpkg/yarn/issues/4878#issuecomment-386635234
+
+---
+
+## Testing with `jest`
+
+- Run TS not JS files
+- Use `tsconfig.json` in root and path mapping
+- Transpilation on the fly
+
+```json
+{
+  "extends": "@monorepo/tsconfig",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@monorepo/*": ["packages/*/src"]
+    }
+  }
+}
+```
+
+---
+
+## Share configuration as packages
+
+- e.g. tsconfig, eslint, prettier
