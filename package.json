@@ -7,5 +7,11 @@
     "Sebastian Sebald <sebastian.sebald@reservix.de>"
   ],
   "license": "MIT",
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.4.0"
+  },
+  "scripts": {
+    "lerna": "lerna"
+  }
 }
