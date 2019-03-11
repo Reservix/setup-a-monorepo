@@ -44,4 +44,6 @@ When talking about Node.js and JavaScript a monorepo is a repository that contai
 
 ---
 
-<a style="display:block; text-align: right" href="./02-bootstrapping.md">⏭ Bootstrapping</a>
+<div>
+  <a style="float:right;" href="./02-bootstrapping.md">⏭ Bootstrapping</a>
+</div>

@@ -130,3 +130,10 @@ With this script in place, you can alias all _lerna_ commands with `yarn lerna <
 ---
 
 1. _<a name="footnote_1"></a> There is [one exception](https://github.com/yarnpkg/yarn/issues/4543), regarding binaries though._
+
+---
+
+<div>
+  <a style="float:left;" href="./01-introduction.md">⏮ Introduction</a>
+  <a style="float:right;">⏭ ???</a>
+</div>
