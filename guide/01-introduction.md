@@ -27,6 +27,16 @@ Within your company each team can have its own monorepo. This way, you organize 
 >
 > [— Markus Oberlehner](https://medium.com/@maoberlehner/monorepos-in-the-wild-33c6eb246cb9)
 
+## Cohesion
+
+> It is widely accepted that software code should have a high level of cohesion and a low level of coupling.
+>
+> [..]
+>
+> Using modules in design is a way to increase cohesion and decrease coupling. Modules should be made up of elements which functionally or logically belong together assuring cohesion. Modules should have well defined interfaces which are accessed by other modules. Instead of calling three objects of a module, it is better to access one interface, because it reduces coupling. Low coupling reduces complexity, and increases maintainability. It is easier to understand how a system functions when there are few connections between modules which perform well defined tasks, than when every module has lots of connections to all the other modules.
+>
+> [— Domain-Driven Design Quickly](https://books.google.de/books?id=CfdHAgAAQBAJ&pg=PA40&lpg=PA40&dq=%22It+is+widely+accepted+that+software+code+should+have+a+high+level+of+cohesion+and+a+low+level+of+coupling.%22#v=onepage&q=%22It%20is%20widely%20accepted%20that%20software%20code%20should%20have%20a%20high%20level%20of%20cohesion%20and%20a%20low%20level%20of%20coupling.%22&f=false)
+
 ## More information
 
 If you want to have morge informations, here are some links:
