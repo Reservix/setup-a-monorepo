@@ -35,3 +35,20 @@ Recommended alternative: `yarn add <package>@*` (because you always WANT the lat
 ## Share configuration as packages
 
 - e.g. tsconfig, eslint, prettier
+
+---
+
+## Adding modules
+
+- lerna create ?
+
+## Installing dependencies (for tooling)
+
+- yarn add -WD <name>
+
+## Setup tooling
+
+- Add eslint
+- Add prettier
+- Add jest
+- Add TypeScript
