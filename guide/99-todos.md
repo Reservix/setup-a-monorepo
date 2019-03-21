@@ -52,3 +52,8 @@ Recommended alternative: `yarn add <package>@*` (because you always WANT the lat
 - Add prettier
 - Add jest
 - Add TypeScript
+
+## Why usa a `tsconfig.build.json` in modules
+
+-> together with path mapping, CTRL+click will go to source, rather than definitions/build files
+-> personal preference
